@@ -1,0 +1,1 @@
+This bug occurs when using the Expo `Camera` API in conjunction with other asynchronous operations.  The issue manifests as inconsistent behavior where the camera preview freezes or fails to update properly, or images are not captured correctly.  The problem is often exacerbated in situations with multiple concurrent requests or significant UI updates.
